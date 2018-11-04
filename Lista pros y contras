@@ -1,4 +1,6 @@
-[Lista 10 weather APIs](https://www.programmableweb.com/news/top-10-weather-apis/analysis/2014/11/13)
+[Lista 10 weather APIs (Updated: 2014)](https://www.programmableweb.com/news/top-10-weather-apis/analysis/2014/11/13)
+[Lista 7 weather APIs (Updated: 2017)](https://superdevresources.com/weather-forecast-api-for-developing-apps/)
+[Free weather icons](https://superdevresources.com/free-weather-icon-sets-apps/)
 
 _Lista de weather APIs:_
 ========
@@ -19,7 +21,7 @@ _Lista de weather APIs:_
 - Hay info
 - Acceso de datos individuales fácilmente
 - No necesita dependencias extra
-- Licencia MIT
+- Licencia MIT (creador librería)
 
 ### Contras:
 - Usa Yahoo (Ahora forma parte de Oath y el **futuro está en el aire**, [ver EOL Notice](https://developer.yahoo.com/weather/))
@@ -33,29 +35,58 @@ _Lista de weather APIs:_
 - Puedes poner la localización directamente sin especificar woeid ni pais
 - Acceso de datos individuales fácilmente
 - Pronóstico de 10 días
-- Licencia MIT
+- Licencia MIT (creador librería)
 
 ### Contras:
 - Usa Yahoo (Ahora forma parte de Oath y el **futuro está en el aire**, [ver EOL Notice](https://developer.yahoo.com/weather/))
 - ~~Poca información de métodos~~ Información conseguida
 - No se podría cambiar el lenguaje
+- Warning log: `RequestsDependencyWarning: Old version of cryptography ([1, 2, 3]) may cause slowdown.`
 
 ----------
-# Google
-- [Google y Python](https://gist.github.com/jleclanche/2689784)
+# Google (Deprecated since 2012)
+## [Python](https://gist.github.com/jleclanche/2689784)
 
 --------
 # OpenweatherMap
-## [Pyhton (pyowm)](https://bigl.es/using-python-to-get-weather-data/)
+## [Pyhton (pyowm)](https://bigl.es/using-python-to-get-weather-data/) [(2)](https://github.com/csparpa/pyowm/wiki/Home/53edfdd84a5c2f046ea1e3a5d66f8dda805b6460)
 ### Pros:
 - Hay info
-- Se puede cambiar el lenguaje facilmente (en principio)
+- Se puede cambiar el lenguaje fácilmente (en principio)
+- Licencia MIT (creador librería)
 
 ### Contras:
-- Hay que **pagar suscripcion** para acceder a 16 dias pronostico (gratis solo 5 dias)
-- Licencia comercial no clara
-- Informacion densa
+- Hay que **pagar suscripcion** para acceder a 16 dias pronostico (gratis solo 5 dias) -> Licencia comercial no clara  (habría que mirar en detalle)
+- Información densa
 - Falta de ejemplos
-- Acceso de datos individuales inexistente, en principio (creo que se dan en json, en tal caso se podría manejar [asi](https://www.pythoniza.me/pronostico-del-clima-con-python-y-yahoo/), ver último bloque))
+- No se puede buscar ciudad solo, hay que especificar país (en principio)
+- Acceso de datos a través de json o xml (Se puede manejar [asi](https://www.pythoniza.me/pronostico-del-clima-con-python-y-yahoo/), ver último bloque)
+
+---------------
+# [Apixu](https://www.apixu.com/)
+### Pros:
+- Información accesisble
+- Fácil manejo
+- Varios lenguajes de programación
+- Varias APIs
+- Hasta 7 días de previsión (ampliable a 10 y 14 pagando)
+- Tiempo historico de 7 días (ampliable a 30 días y desde 2015 pagando)
+- Puedes cambiar el lenguaje
+
+### Contras:
+- Hay que **pagar suscripcion** para acceder a 16 dias pronostico (gratis solo 5 dias) -> Licencia comercial no clara (habría que mirar en detalle)
+
+------
+[Wrapper para Yahoo! Weather, NOAA y Weather.com](https://code.google.com/archive/p/python-weather-api/)
+
+# ~~[NOAA](https://www.programmableweb.com/api/noaa-climate-data-online)~~
+### Pros:
+- 5 request por segundo y 10000 por día (por token)
+
+## Contras:
+- Creo que solo es para oceanos
+- **Solo es para EEUU**
+- Hay que poner ID
+
 
 Mirar licencias y demás (MIT license)
