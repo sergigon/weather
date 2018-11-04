@@ -1,0 +1,109 @@
+Location:
+Ciudad: Guadalajara
+Region:  JA
+Pais: Mexico
+
+Datos de la salida y puesta del sol:
+Salida del sol: 6:56 am
+Puesta del sol: 6:18 pm
+
+Atmosfera:
+************** Atmosfera **********************
+Humedad: 47
+Presion: 28615.00
+Incremento: 0
+Visibilidad: 47
+***********************************************
+
+Viento:
+Enfriamiento: 75
+Direccion: 180
+Velocidad: 8.05
+
+Unidades de medicion:
+Unidad de velocidad: km/h
+Unidad de presion: mb
+Unidad de distancia: km
+Unidad de temperatura: C
+
+Condicion actual del clima:
+Codigo: 26
+Fecha: Fri, 02 Nov 2018 02:00 PM CST
+Temperatura: 24
+Texto: Cloudy
+
+####################################################################
+
+Ejemplo unificado:
+Condiciones del clima en Guadalajara,  JA, Mexico:
+Fecha: Fri, 02 Nov 2018 02:00 PM CST
+Temperatura: 24 grados C
+Condicion: Cloudy (26)
+
+####################################################################
+
+Pronostico 5 dias (raw):
+{u'code': u'4', u'text': u'Thunderstorms', u'high': u'28', u'low': u'22', u'date': u'02 Nov 2018', u'day': u'Fri'}
+{u'code': u'4', u'text': u'Thunderstorms', u'high': u'28', u'low': u'22', u'date': u'03 Nov 2018', u'day': u'Sat'}
+{u'code': u'4', u'text': u'Thunderstorms', u'high': u'30', u'low': u'23', u'date': u'04 Nov 2018', u'day': u'Sun'}
+{u'code': u'30', u'text': u'Partly Cloudy', u'high': u'31', u'low': u'22', u'date': u'05 Nov 2018', u'day': u'Mon'}
+{u'code': u'30', u'text': u'Partly Cloudy', u'high': u'31', u'low': u'22', u'date': u'06 Nov 2018', u'day': u'Tue'}
+{u'code': u'34', u'text': u'Mostly Sunny', u'high': u'32', u'low': u'21', u'date': u'07 Nov 2018', u'day': u'Wed'}
+{u'code': u'34', u'text': u'Mostly Sunny', u'high': u'30', u'low': u'21', u'date': u'08 Nov 2018', u'day': u'Thu'}
+{u'code': u'47', u'text': u'Scattered Thunderstorms', u'high': u'29', u'low': u'21', u'date': u'09 Nov 2018', u'day': u'Fri'}
+{u'code': u'4', u'text': u'Thunderstorms', u'high': u'29', u'low': u'21', u'date': u'10 Nov 2018', u'day': u'Sat'}
+{u'code': u'30', u'text': u'Partly Cloudy', u'high': u'31', u'low': u'21', u'date': u'11 Nov 2018', u'day': u'Sun'}
+
+Pronostico 5 dias (ordenado):
+Condiciones del clima para la ciudad de Merida,  YU, Mexico: 
+
+Fecha: Fri 02 Nov 2018
+Pronostico: Thunderstorms (4)
+Temperatura Minima: 22 grados C
+Temperatura Maxima: 28 grados C
+*****************************************************************************
+Fecha: Sat 03 Nov 2018
+Pronostico: Thunderstorms (4)
+Temperatura Minima: 22 grados C
+Temperatura Maxima: 28 grados C
+*****************************************************************************
+Fecha: Sun 04 Nov 2018
+Pronostico: Thunderstorms (4)
+Temperatura Minima: 23 grados C
+Temperatura Maxima: 30 grados C
+*****************************************************************************
+Fecha: Mon 05 Nov 2018
+Pronostico: Partly Cloudy (30)
+Temperatura Minima: 22 grados C
+Temperatura Maxima: 31 grados C
+*****************************************************************************
+Fecha: Tue 06 Nov 2018
+Pronostico: Partly Cloudy (30)
+Temperatura Minima: 22 grados C
+Temperatura Maxima: 31 grados C
+*****************************************************************************
+Fecha: Wed 07 Nov 2018
+Pronostico: Mostly Sunny (34)
+Temperatura Minima: 21 grados C
+Temperatura Maxima: 32 grados C
+*****************************************************************************
+Fecha: Thu 08 Nov 2018
+Pronostico: Mostly Sunny (34)
+Temperatura Minima: 21 grados C
+Temperatura Maxima: 30 grados C
+*****************************************************************************
+Fecha: Fri 09 Nov 2018
+Pronostico: Scattered Thunderstorms (47)
+Temperatura Minima: 21 grados C
+Temperatura Maxima: 29 grados C
+*****************************************************************************
+Fecha: Sat 10 Nov 2018
+Pronostico: Thunderstorms (4)
+Temperatura Minima: 21 grados C
+Temperatura Maxima: 29 grados C
+*****************************************************************************
+Fecha: Sun 11 Nov 2018
+Pronostico: Partly Cloudy (30)
+Temperatura Minima: 21 grados C
+Temperatura Maxima: 31 grados C
+*****************************************************************************

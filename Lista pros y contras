@@ -1,0 +1,61 @@
+[Lista 10 weather APIs](https://www.programmableweb.com/news/top-10-weather-apis/analysis/2014/11/13)
+
+_Lista de weather APIs:_
+========
+# Yahoo:
+## [Python y demás lenguajes (urllib2 and json)](https://stackoverflow.com/questions/3290522/urllib2-and-json) [(2)](https://developer.yahoo.com/weather/#python)
+### Pros:
+- Acceso a Yahoo Weather de forma directa
+- Se puede cambiar el lenguaje (pero no sé cómo)
+
+### Contras:
+- Usa Yahoo (Ahora forma parte de Oath y el **futuro está en el aire**, [ver EOL Notice](https://developer.yahoo.com/weather/))
+- Dificil de usar, las librerías siguientes adaptan este código de forma intuitiva
+- Acceso de datos a través de json o xml (Se puede manejar [asi](https://www.pythoniza.me/pronostico-del-clima-con-python-y-yahoo/), ver último bloque)
+
+## [Python (pyql-weather)](https://www.pythoniza.me/pronostico-del-clima-con-python-y-yahoo/)
+### Pros:
+- Fácil de usar
+- Hay info
+- Acceso de datos individuales fácilmente
+- No necesita dependencias extra
+- Licencia MIT
+
+### Contras:
+- Usa Yahoo (Ahora forma parte de Oath y el **futuro está en el aire**, [ver EOL Notice](https://developer.yahoo.com/weather/))
+- Libreria Geo no funciona -> **no woeid automatico**
+- Pronóstico de 5 días
+- Hace 4 años que no se actualiza
+- No se podría cambiar el lenguaje
+
+## [Python (weather-api)](https://pypi.org/project/weather-api/)
+### Pros:
+- Puedes poner la localización directamente sin especificar woeid ni pais
+- Acceso de datos individuales fácilmente
+- Pronóstico de 10 días
+- Licencia MIT
+
+### Contras:
+- Usa Yahoo (Ahora forma parte de Oath y el **futuro está en el aire**, [ver EOL Notice](https://developer.yahoo.com/weather/))
+- ~~Poca información de métodos~~ Información conseguida
+- No se podría cambiar el lenguaje
+
+----------
+# Google
+- [Google y Python](https://gist.github.com/jleclanche/2689784)
+
+--------
+# OpenweatherMap
+## [Pyhton (pyowm)](https://bigl.es/using-python-to-get-weather-data/)
+### Pros:
+- Hay info
+- Se puede cambiar el lenguaje facilmente (en principio)
+
+### Contras:
+- Hay que **pagar suscripcion** para acceder a 16 dias pronostico (gratis solo 5 dias)
+- Licencia comercial no clara
+- Informacion densa
+- Falta de ejemplos
+- Acceso de datos individuales inexistente, en principio (creo que se dan en json, en tal caso se podría manejar [asi](https://www.pythoniza.me/pronostico-del-clima-con-python-y-yahoo/), ver último bloque))
+
+Mirar licencias y demás (MIT license)
