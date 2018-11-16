@@ -105,6 +105,7 @@ Datos -> **Pantalla, movimiento, voz**
 Ejemplo: Activar **pantalla** y **voz**: **101**
 + **Request_info** [String] (Solo para escenario ***Info***) (Se envía el dato que se quiere conocer)
  + Se envían los datos en formato json ¿?
++ **Personalized** [Int, string]  (Solo para escenario ***Chascarrillos***) **¿?**
 
 -----------
 
@@ -116,6 +117,16 @@ Escenarios:
  + Devuelvo un string con el comentario [string]
 + 3 - **Info** (Se ha pedido un dato concreto a la skill)
  + Devuelvo el dato en formato json [string]
+
+---------
+
+Comentarios:
+=====
+Qué tener en cuenta:
+
++ Temperatura
++ Condición
++ Personalizado ¿?
 
 --------
 
