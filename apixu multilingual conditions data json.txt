@@ -1,0 +1,64 @@
+# http://www.apixu.com/doc/conditions.json
+
+[{
+	"code":1000,
+	"day":"Sunny",
+	"night":"Clear",
+	"icon":113,
+	"languages": [{
+		"lang_name":"Arabic", # 1
+		"lang_iso":"ar",
+		"day_text":"مشمس",
+		"night_text":"صافي"
+	},
+	{
+		"lang_name":"Bengali", # 2
+		"lang_iso":"bn",
+		"day_text":"সূর্যোজ্জ্বল",
+		"night_text":"পরিষ্কার"
+	},
+
+	...
+
+	{
+		"lang_name":"Spanish", # 27
+		"lang_iso":"es",
+		"day_text":"Soleado",
+		"night_text":"Despejado"
+	},
+
+	...
+
+	{
+		"lang_name":"Zulu", # 38
+		"lang_iso":"zu",
+		"day_text":"Kuyashisa",
+		"night_text":"Licwathile"
+	}]
+},
+{
+	"code":1003,
+	"day":"Partly Cloudy",
+	"night":"Partly Cloudy",
+	"icon":116,
+	"languages": [{
+		"lang_name":"Arabic",
+		"lang_iso":"ar",
+		"day_text":"غائم جزئياً",
+		"night_text":"غائم جزئياً"
+	},
+	{
+		"lang_name":"Bengali",
+		"lang_iso":"bn",
+		"day_text":"অংশত মেঘলা",
+		"night_text":"অংশত মেঘলা"
+	},
+
+	...
+
+	{
+		"lang_name":"Spanish",
+		"lang_iso":"es",
+		"day_text":"Parcialmente nublado",
+		"night_text":"Parcialmente nublado"
+	},

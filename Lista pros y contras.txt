@@ -1,10 +1,13 @@
 [Lista 10 weather APIs (Updated: 2014)](https://www.programmableweb.com/news/top-10-weather-apis/analysis/2014/11/13)
 [Lista 7 weather APIs (Updated: 2017)](https://superdevresources.com/weather-forecast-api-for-developing-apps/)
+[Lista 3 weather APIs (Updated: 2018)](https://blog.rapidapi.com/access-global-weather-data-with-these-weather-apis/)
 [Free weather icons](https://superdevresources.com/free-weather-icon-sets-apps/)
+
+[Requests URL tutorial](http://docs.python-requests.org/en/master/user/quickstart/)
 
 _Lista de weather APIs:_
 ========
-# Yahoo:
+# Yahoo! Weather:
 ## [Python y demás lenguajes (urllib2 and json)](https://stackoverflow.com/questions/3290522/urllib2-and-json) [(2)](https://developer.yahoo.com/weather/#python)
 ### Pros:
 - Acceso a Yahoo Weather de forma directa
@@ -48,7 +51,7 @@ _Lista de weather APIs:_
 ## [Python](https://gist.github.com/jleclanche/2689784)
 
 --------
-# OpenweatherMap
+# OpenweatherMap [(pyowm y request info)](https://stackoverflow.com/questions/1474489/python-weather-api)
 ## [Pyhton (pyowm)](https://bigl.es/using-python-to-get-weather-data/) [(2)](https://github.com/csparpa/pyowm/wiki/Home/53edfdd84a5c2f046ea1e3a5d66f8dda805b6460)
 ### Pros:
 - Hay info
@@ -88,5 +91,32 @@ _Lista de weather APIs:_
 - **Solo es para EEUU**
 - Hay que poner ID
 
+-------
+# wolfram alpha weather forecast
+
+----------
+
+Inputs:
+========
++ **Scenario** [String] (Tipo de escenario)
++ **Multimedia** [Cadena de bool, string] (Solo para escenario ***Weather***) (Determina si quieres activar la parte multimedia: pantalla, movimiento, voz; por defecto activada al completo)
+ + Se envia una cadena de 1 y 0s.
+Datos -> **Pantalla, movimiento, voz**
+Ejemplo: Activar **pantalla** y **voz**: **101**
++ **Request_info** [String] (Solo para escenario ***Info***) (Se envía el dato que se quiere conocer)
+ + Se envían los datos en formato json ¿?
+
+-----------
+
+Escenarios:
+=========
++ 1 - **Weather** (El usuario le ha preguntado por el tiempo)
+ + No devuelvo nada
++ 2 - **Chascarrillos** (La skill chascarrillos ha pedido un comentario del tiempo (ej.: comentario sobre qué frío hace hoy)
+ + Devuelvo un string con el comentario [string]
++ 3 - **Info** (Se ha pedido un dato concreto a la skill)
+ + Devuelvo el dato en formato json [string]
+
+--------
 
 Mirar licencias y demás (MIT license)
