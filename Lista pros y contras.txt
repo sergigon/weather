@@ -86,13 +86,19 @@ _Lista de weather APIs:_
 ### Pros:
 - 5 request por segundo y 10000 por día (por token)
 
-## Contras:
+### Contras:
 - Creo que solo es para oceanos
 - **Solo es para EEUU**
 - Hay que poner ID
 
 -------
-# wolfram alpha weather forecast
+# [wolfram alpha weather forecast](http://developer.wolframalpha.com/portal/myapps/)
+
+### Pros:
+
+### Contras:
+- 2000 llamadas por mes
+- Solo 7 dias de forecast
 
 ----------
 
